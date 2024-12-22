@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eminem - Album</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #1c1c1c;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 28px;
+            color: #E62B1E;
+            margin: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 60px 30px;
+            background: linear-gradient(90deg, #000, #333);
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            max-width: 800px;
+        }
+
+        /* Back Button Styling */
+        .back-button {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .back-button button {
+            background-color: #E62B1E;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .back-button button:hover {
+            background-color: #c02416;
+            transform: scale(1.05);
+        }
+
+        /* Albums Section */
+        .albums {
+            padding: 60px 30px;
+            text-align: center;
+            background-color: #fff;
+        }
+        .albums h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #E62B1E;
+        }
+        .album-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .album {
+            background: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .album img {
+            width: 100%;
+            height: auto;
+        }
+        .album h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .album p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>EMINEM</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Kumpulan Karya Eminem</h2>
+        <p>Jelajahi album ikonik yang menentukan karier Eminem dan membentuk dunia hip-hop.</p>
+    </div>
+
+    <!-- Albums Section -->
+    <section class="albums">
+        <h2>Albums</h2>
+        <div class="album-container">
+            <div class="album">
+                <img src="E:\Downloads\R-149978-1720067638-9560.jpg">
+                <h3>The Slim Shady LP (1999)</h3>
+                <p>Album yang memperkenalkan Slim Shady kepada dunia dan membuat Eminem meraih Grammy pertamanya.</p>
+            </div>
+            <div class="album">
+                <img src="E:\Downloads\The_Marshall_Mathers_LP.jpg">
+                <h3>The Marshall Mathers LP (2000)</h3>
+                <p>Salah satu album dengan penjualan tercepat sepanjang sejarah, menampilkan bakat alami dan kisah Eminem.</p>
+            </div>
+            <div class="album">
+                <img src="E:\Downloads\The_Eminem_Show.jpg">
+                <h3>The Eminem Show (2002)</h3>
+                <p>Album yang sangat pribadi yang mencerminkan perjuangan dan kemenangan Eminem.</p>
+            </div>
+            <div class="album">
+                <img src="E:\Downloads\Eminem_-_Encore.jpg">
+                <h3>Encore (2004)</h3>
+                <p>Campuran hits dan humor, menampilkan keserbagunaan dan gaya Eminem.</p>
+            </div>
+            <div class="album">
+                <img src="E:\Downloads\Recovery_Album_Cover.jpg">
+                <h3>Recovery (2010)</h3>
+                <p>Album comeback yang menginspirasi yang menyoroti ketahanan dan pertumbuhan Eminem.</p>
+            </div>
+            <div class="album">
+                <img src="E:\Downloads\images (3).jpg">
+                <h3>Kamikaze (2018)</h3>
+                <p>Rilisan kejutan yang membangun kembali dominasi Eminem dalam dunia rap.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Button -->
+    <div class="back-button">
+        <button onclick="goBack()">Kembali</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Azis Saputra | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

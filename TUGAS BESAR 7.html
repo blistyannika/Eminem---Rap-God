@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Konser Eminem</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #111;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        header h1 {
+            font-size: 36px;
+            color: #E62B1E;
+            margin: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #1a1a1a, #444), url('https://via.placeholder.com/1920x800?text=Eminem+Concert') no-repeat center center/cover;
+            color: #fff;
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            max-width: 700px;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .contact-container h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #E62B1E;
+        }
+        .contact-container p {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .contact-container a {
+            color: #E62B1E;
+            text-decoration: none;
+        }
+        .contact-container a:hover {
+            text-decoration: underline;
+        }
+
+        /* Back Button */
+        .back-button {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .back-button button {
+            background-color: #E62B1E;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .back-button button:hover {
+            background-color: #c02416;
+            transform: scale(1.05);
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hubungi Kami</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Informasi Konser Eminem</h2>
+        <p>Hubungi kami untuk mendapatkan informasi terbaru tentang konser Eminem!</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-container">
+        <h2>Informasi Kontak</h2>
+        <p><strong>Nomor Telepon:</strong> 089501082502</p>
+        <p><strong>Email:</strong> <a href="mailto:azis.saputragood723@gmail.com">azis.saputragood723@gmail.com</a></p>
+        <p><strong>Pengembang:</strong> Azis Saputra</p>
+    </div>
+
+    <!-- Back Button -->
+    <div class="back-button">
+        <button onclick="goBack()">Kembali</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Azis Saputra | Hak Cipta Dilindungi</p>
+    </footer>
+</body>
+</html>
